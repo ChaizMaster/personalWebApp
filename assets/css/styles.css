@@ -219,9 +219,9 @@ img {
 .home__img {
   position: absolute;
   top: 10em;
-  right: 0;
+  right: 1em;
   bottom: 0;
-  width: 295px;
+  width: 200px;
 }
 
 /*BUTTONS*/
@@ -434,7 +434,7 @@ img {
     margin-right: var(--mb-4);
   }
   .home__img {
-    width: 457px;
+    width: 450px;
     bottom: 15%;
   }
 
@@ -466,6 +466,15 @@ img {
     margin-right: auto;
   }
   .home__img {
+    position: absolute;
+    right: 10%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home__img {
+    position: fixed;
+    width: 220px;
+    top: 45%;
     right: 10%;
   }
 }
